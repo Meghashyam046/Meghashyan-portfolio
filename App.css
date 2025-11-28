@@ -1,0 +1,36 @@
+/* General Page Background */
+.bg-dark {
+  background-color: #0d0d0d;
+}
+
+.text-light {
+  color: #f8f9fa;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Section Styling */
+section {
+  padding: 80px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #00e676;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #111;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
