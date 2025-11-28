@@ -1,0 +1,22 @@
+{
+  "name": "meghashyam-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.9.6"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
