@@ -1,0 +1,76 @@
+/* Reset Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background: #111;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-link {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #00e676;
+}
+
+/* Active Link On Scroll */
+.nav-link.active {
+  color: #00e676;
+  border-bottom: 2px solid #00e676;
+  padding-bottom: 5px;
+}
+
+/* Hero */
+#hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+#hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 22px;
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  #hero h1 {
+    font-size: 34px;
+  }
+}
